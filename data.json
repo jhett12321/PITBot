@@ -1,0 +1,278 @@
+{
+  "jira_configuration": {
+    "host": "dgcissuetracker.com",
+    "protocol": "https",
+    "username": "someuser",
+    "password": "apassword"
+  },
+  "hipchat_configuration": {
+    "api_key": "somekey"
+  },
+  "game_list": {
+    "planetside2": {
+      "name": "Planetside 2",
+      "query_interval": "300000",
+      "hipchat_color": "red",
+      "jira_project_id": "10002",
+      "jira_project_key": "PS",
+      "manifest_list": {
+        "livenext": {
+          "name": "Live (Next)",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/planetside2/planetside2-live/livenext/planetside2-live.sha.soe.txt",
+          "last_updated": "1438969100"
+        },
+        "live": {
+          "name": "Live",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/planetside2/planetside2-live/live/planetside2-live.sha.soe.txt",
+          "last_updated": "1438969100"
+        },
+        "livelast": {
+          "name": "Live (Last)",
+          "enabled": "0",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/planetside2/planetside2-live/livelast/planetside2-live.sha.soe.txt",
+          "last_updated": "1438799136"
+        },
+        "testnext": {
+          "name": "PTS (Next)",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/planetside2/planetside2-test/livenext/planetside2-test.sha.soe.txt",
+          "last_updated": "1439602476"
+        },
+        "test": {
+          "name": "PTS",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/planetside2/planetside2-test/live/planetside2-test.sha.soe.txt",
+          "last_updated": "1439602476"
+        },
+        "testlast": {
+          "name": "PTS (Last)",
+          "enabled": "0",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/planetside2/planetside2-test/livelast/planetside2-test.sha.soe.txt",
+          "last_updated": "1438800185"
+        }
+      }
+    },
+    "planetside2-common": {
+      "name": "Planetside 2 Common",
+      "query_interval": "300000",
+      "hipchat_color": "gray",
+      "manifest_list": {
+        "livecommon": {
+          "name": "Live (Common)",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/planetside2/planetside2-livecommon/live/planetside2-livecommon.sha.soe.txt",
+          "last_updated": "1438969062"
+        },
+        "testcommon": {
+          "name": "PTS (Common)",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/planetside2/planetside2-testcommon/live/planetside2-testcommon.sha.soe.txt",
+          "last_updated": "1439602190"
+        },
+        "live-commonnext": {
+          "name": "Live (Common Next)",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/planetside2/planetside2-livecommon/livenext/planetside2-livecommon.sha.soe.txt",
+          "last_updated": "1438969062"
+        },
+        "live-commonlast": {
+          "name": "Live (Common Last)",
+          "enabled": "0",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/planetside2/planetside2-livecommon/livelast/planetside2-livecommon.sha.soe.txt",
+          "last_updated": "1438799009"
+        },
+        "test-commonnext": {
+          "name": "PTS (Common Next)",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/planetside2/planetside2-testcommon/livenext/planetside2-testcommon.sha.soe.txt",
+          "last_updated": "1439602190"
+        },
+        "test-commonlast": {
+          "name": "PTS (Common Last)",
+          "enabled": "0",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/planetside2/planetside2-testcommon/livelast/planetside2-testcommon.sha.soe.txt",
+          "last_updated": "1438800054"
+        }
+      }
+    },
+    "eqnext": {
+      "name": "Landmark",
+      "query_interval": "600000",
+      "hipchat_color": "green",
+      "jira_project_id": "10402",
+      "jira_project_key": "LM",
+      "manifest_list": {
+        "live": {
+          "name": "Live",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/eqnext/test/play/current/test64-cdn.sha.soe.txt",
+          "last_updated": "1438832808"
+        },
+        "playshared": {
+          "name": "Live (Play-Shared)",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/eqnext/test/play/current/shared-cdn.sha.soe.txt",
+          "last_updated": "1438832805"
+        },
+        "commonshared": {
+          "name": "Live (Common-Shared)",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/eqnext/test/common/current/shared-cdn.sha.soe.txt",
+          "last_updated": "1438984875"
+        },
+        "test": {
+          "name": "Test",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/eqnext/test/common/current/test-cdn.sha.soe.txt",
+          "last_updated": "1438984910"
+        },
+        "landmarknext": {
+          "name": "Live (Next)",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/eqnext/test/play/next/test64-cdn.sha.soe.txt",
+          "last_updated": "1438832808"
+        },
+        "landmarknext-playshared": {
+          "name": "Live (Next Play-Shared)",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/eqnext/test/play/next/shared-cdn.sha.soe.txt",
+          "last_updated": "1438832805"
+        },
+        "landmarknext-commonshared": {
+          "name": "Live (Next Common-Shared)",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/eqnext/test/common/next/shared-cdn.sha.soe.txt",
+          "last_updated": "1438984875"
+        },
+        "landmarknext-test": {
+          "name": "Test (Next)",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/eqnext/test/common/next/test-cdn.sha.soe.txt",
+          "last_updated": "1438984910"
+        }
+      }
+    },
+    "h1z1": {
+      "name": "H1Z1",
+      "query_interval": "600000",
+      "hipchat_color": "yellow",
+      "jira_project_id": "10403",
+      "jira_project_key": "HZ",
+      "manifest_list": {
+        "live": {
+          "name": "Live",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/h1z1/live/play/current/live.sha.soe.txt",
+          "last_updated": "1440044784"
+        },
+        "live-shared": {
+          "name": "Live (Shared)",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/h1z1/live/play/current/shared.sha.soe.txt",
+          "last_updated": "1440044788"
+        },
+        "next": {
+          "name": "Live (Next)",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/h1z1/live/play/next/live.sha.soe.txt",
+          "last_updated": "1440044784"
+        },
+        "next-shared": {
+          "name": "Live (Next-Shared)",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/h1z1/live/play/next/shared.sha.soe.txt",
+          "last_updated": "1440044788"
+        },
+        "test": {
+          "name": "PTS",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/h1z1/test/play/current/test.sha.soe.txt",
+          "last_updated": "1440448062"
+        },
+        "test-shared": {
+          "name": "PTS (Shared)",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/h1z1/test/play/current/shared.sha.soe.txt",
+          "last_updated": "1440448060"
+        },
+        "testnext": {
+          "name": "PTS (Next)",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/h1z1/test/play/next/test.sha.soe.txt",
+          "last_updated": "1440448062"
+        },
+        "testnext-shared": {
+          "name": "PTS (Next-Shared)",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.daybreakgames.com/patch/sha/manifest/h1z1/test/play/next/shared.sha.soe.txt",
+          "last_updated": "1440448060"
+        }
+      }
+    },
+    "dcuo": {
+      "name": "DC Universe Online",
+      "query_interval": "600000",
+      "hipchat_color": "purple",
+      "jira_project_id": "10501",
+      "jira_project_key": "DC",
+      "manifest_list": {
+        "live": {
+          "name": "Live",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.station.sony.com/patch/sha/manifest/dcuo-pc/dcuo-pcus-retail/live/pcus-retail-win32.sha.soe.txt",
+          "last_updated": "1439422603"
+        },
+        "test": {
+          "name": "Test",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.station.sony.com/patch/sha/manifest/dcuo-pc/dcuo-test-pc/live/test-pc-win32.sha.soe.txt",
+          "last_updated": "1440085849"
+        }
+      }
+    },
+    "eq": {
+      "name": "EverQuest",
+      "query_interval": "600000",
+      "hipchat_color": "green",
+      "jira_project_id": "10600",
+      "jira_project_key": "EQ",
+      "manifest_list": {
+        "live": {
+          "name": "Live",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.station.sony.com/patch/sha/manifest/eq/eq-en/live/eq-en.sha.soe.txt",
+          "last_updated": "1440186181"
+        },
+        "test": {
+          "name": "Test",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.station.sony.com/patch/sha/manifest/eq/eq-en-test/live/eq-en-test.sha.soe.txt",
+          "last_updated": "1440112079"
+        }
+      }
+    },
+    "eq2": {
+      "name": "EverQuest 2",
+      "query_interval": "600000",
+      "hipchat_color": "green",
+      "jira_project_id": "10602",
+      "jira_project_key": "EQII",
+      "manifest_list": {
+        "live": {
+          "name": "Live",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.station.sony.com/patch/sha/manifest/eq2/eq2-en/live/eq2-en.sha.soe.txt",
+          "last_updated": "1440462965"
+        },
+        "test": {
+          "name": "Test",
+          "enabled": "1",
+          "manifest_url": "http://manifest.patch.station.sony.com/patch/sha/manifest/eq2/eq2-en-test/live/eq2-en-test.sha.soe.txt",
+          "last_updated": "1440464686"
+        }
+      }
+    }
+  }
+}
